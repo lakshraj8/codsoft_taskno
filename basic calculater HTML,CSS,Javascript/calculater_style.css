@@ -1,0 +1,109 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background: #f2f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #e3feff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator{
+    background: #21201f;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.calculator form input{
+  border: 0;
+  outline: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  box-shadow: -8px -8px 15px rgba(105, 75, 75, 0.1),5px 5px 15px rgba(74, 111, 138, 0.2);
+  background: transparent;
+  font-size: 20px;
+  color: rgb(220, 141, 23);
+  cursor: pointer;
+  margin: 10px;
+}
+
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+
+}
+
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+
+form input.equal{
+    width: 145px;
+    background-color: darkorange;
+    color: #111010;
+  box-shadow: rgb(254, 253, 255);
+
+}
+
+form input.clear{
+   
+    background-color: red;
+    color: #f3f2f0;
+  box-shadow: rgb(77, 4, 235);
+}
+
+ form input.delet{
+    background-color: #29829d;
+    color: #f9f8f2;
+  box-shadow: rgb(77, 4, 235);
+ }
+
+ form input.dot{
+    background-color: #29829d;
+    color: #f8f7f2;
+  box-shadow: rgb(77, 4, 235);
+ }
+
+ form input.devide{
+    background-color: #29829d;
+    color: #d7d7d3;
+  box-shadow: rgb(1, 1, 1);
+ }
+ 
+ form input.multi{
+    background-color: #29829d;
+    color: #d6d6d5;
+  box-shadow: rgb(82, 195, 80);
+ }
+
+ form input.min{
+    background-color: #29829d;
+    color: #f4f3ee;
+  box-shadow: rgb(68, 222, 120);
+ }
+
+
+ form input.add{
+    background-color: #29829d;
+    color: #f9f9f4;
+  box-shadow: rgb(253, 254, 252);
+ }
