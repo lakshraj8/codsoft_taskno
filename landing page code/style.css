@@ -1,0 +1,83 @@
+.min-h-screen{
+    min-height: 100vh;  
+}
+
+.bg-red{
+    background-color: rgb(42, 209, 98);
+}
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.item-center{
+    align-items: space center;
+
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.font-bold{
+    font-weight: bolder;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.my-1{
+    margin: 13px;
+    margin-bottom: 3px;
+}
+
+.my-2{
+  margin-top: 26px;
+  margin-bottom: 26px;
+  color: rgb(47, 6, 6);
+}
+
+.px-2{
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.text-blue{
+    color: rgb(47, 21, 216);
+    
+}
+
+.btn{
+    padding: 5px 12px;
+    border: 3px solid black;
+    border-radius: 13px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(15, 237, 115);
+}
+
+.bytn{
+    padding: 7px 15px ;
+    background-color: rgb(19, 175, 193);
+    border-radius: 10px;
+    color: rgb(10, 14, 14);
+    border: 2px black;
+}
+
+.join.png.jpg{
+    border-image-width: 10px;
+}
+
+.OTp.jpg{
+    width: 300px;
+}
+
+.my-3{
+    color: rgb(7, 138, 244);
+    border-color: rgb(24, 10, 10);
+}
+
